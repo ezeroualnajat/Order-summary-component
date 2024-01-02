@@ -14,6 +14,11 @@ body {
     justify-content: center;
     align-items: center
 }
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url(./svgs/pattern-background-mobile.svg);
+    }
+}
 :root {
     --main-bg: #E0E8FF;
     --dark-navy: #1F2E55;
@@ -31,9 +36,14 @@ body {
     box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
     text-align: center
 }
+@media screen and (max-width: 768px) {
+    .box {
+        width: 20.4375rem;
+    }
+}
 .box > img {
     width: 100%;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 1.25rem 1.25rem 0 0;
     margin-bottom: 2.8125rem
 }
 .box h1 {
@@ -42,12 +52,24 @@ body {
     color: var(--dark-navy);
     margin-bottom: 1.0625rem
 }
+@media screen and (max-width: 768px) {
+    .box h1 {
+        font-size: 1.375rem;
+        margin-bottom: 1rem
+    }
+}
 .box p {
     color: var(--grey);
     font-size: 1rem;
     font-weight: 500;
     max-width: 21.5625rem;
     margin: auto auto 1.25rem
+}
+@media screen and (max-width: 768px) {
+    .box p {
+        font-size: 0.9375rem;
+        max-width: 16.3125rem
+    }
 }
 .box .pricing {
     display: flex;
@@ -58,6 +80,12 @@ body {
     margin: 0 3rem;
     border-radius: 0.6875rem
 }
+@media screen and (max-width: 768px) {
+    .box .pricing {
+        padding: 1rem;
+        margin: 0 1.5rem
+    }
+}
 .box .pricing > div {
     margin-left: 1.25rem;
     margin-right: auto
@@ -67,16 +95,25 @@ body {
     font-size: 1rem;
     font-weight: 900
 }
+@media screen and (max-width: 768px) {
+    .box .pricing > div h2 { font-size: 0.875rem }
+}
 .box .pricing > div h3 {
     color: var(--grey);
     font-size: 1rem;
     font-weight: 500
+}
+@media screen and (max-width: 768px) {
+    .box .pricing > div h3 { font-size: 0.875rem }
 }
 .box .pricing h4 {
     color: var(--blue);
     font-size: 0.875rem;
     font-weight: 700;
     text-decoration-line: underline
+}
+@media screen and (max-width: 768px) {
+    .box .pricing h4 { font-size: 0.8125rem }
 }
 .box .pricing h4:hover {
     cursor: pointer;
@@ -95,6 +132,12 @@ body {
     font-weight: 900;
     font-family: inherit
 }
+@media screen and (max-width: 768px) {
+    .box button {
+        margin: 1.5rem 0;
+        padding: 0.9375rem 4rem
+    }
+}
 .box button:hover {
     cursor: pointer;
     background: var(--pale-blue)
@@ -104,6 +147,9 @@ body {
     font-size: 0.9375rem;
     font-weight: 900;
     margin-bottom: 3rem
+}
+@media screen and (max-width: 768px) {
+    .box h5 { margin-bottom: 2rem }
 }
 .box h5:hover {
     cursor: pointer;
