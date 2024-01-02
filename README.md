@@ -18,8 +18,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - Solution URL: (https://github.com/ezeroualnajat/Order-summary-component)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup

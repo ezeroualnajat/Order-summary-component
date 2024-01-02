@@ -37,9 +37,7 @@ body {
     text-align: center
 }
 @media screen and (max-width: 768px) {
-    .box {
-        width: 20.4375rem;
-    }
+    .box { width: 20.4375rem }
 }
 .box > img {
     width: 100%;
