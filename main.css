@@ -31,4 +31,82 @@ body {
     box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
     text-align: center
 }
+.box > img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 2.8125rem
+}
+.box h1 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: var(--dark-navy);
+    margin-bottom: 1.0625rem
+}
+.box p {
+    color: var(--grey);
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 21.5625rem;
+    margin: auto auto 1.25rem
+}
+.box .pricing {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--pale-grey);
+    padding: 1.5rem 1.5625rem;
+    margin: 0 3rem;
+    border-radius: 0.6875rem
+}
+.box .pricing > div {
+    margin-left: 1.25rem;
+    margin-right: auto
+}
+.box .pricing > div h2 {
+    color: var(--dark-navy);
+    font-size: 1rem;
+    font-weight: 900
+}
+.box .pricing > div h3 {
+    color: var(--grey);
+    font-size: 1rem;
+    font-weight: 500
+}
+.box .pricing h4 {
+    color: var(--blue);
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-decoration-line: underline
+}
+.box .pricing h4:hover {
+    cursor: pointer;
+    color: var(--pale-blue);
+    text-decoration-line: unset
+}
+.box button {
+    margin: 2rem 0;
+    padding: 0.9375rem 6.375rem;
+    border: none;
+    border-radius: 0.6875rem;
+    background: var(--blue);
+    box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+    color: var(--white);
+    font-size: 0.9375rem;
+    font-weight: 900;
+    font-family: inherit
+}
+.box button:hover {
+    cursor: pointer;
+    background: var(--pale-blue)
+}
+.box h5 {
+    color: var(--grey);
+    font-size: 0.9375rem;
+    font-weight: 900;
+    margin-bottom: 3rem
+}
+.box h5:hover {
+    cursor: pointer;
+    color: var(--dark-navy)
+}
 /* [ END ] BOX Section */
