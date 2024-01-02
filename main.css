@@ -1,0 +1,18 @@
+/* [ START ] Main Rules */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #E0E8FF url(./svgs/pattern-background-desktop.svg) no-repeat top / contain;
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+/* [ END ] Main Rules */
