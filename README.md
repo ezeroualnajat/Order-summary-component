@@ -17,6 +17,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: (https://github.com/ezeroualnajat/Order-summary-component)
+- Live Preview: (https://najatezeroual.me/qr-code/)
 
 ### Built with
 
